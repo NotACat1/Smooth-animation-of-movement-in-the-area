@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Open Graph-->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Site example">
+  <meta property="og:description" content="Site example with smooth animation of movement in the area">
+  <meta property="og:image" content="https://wampi.ru/image/RprzdYE">
+  <meta property="og:site_name" content="Site example">
+  <meta property="og:locale" content="en_GB">
+
+  <!--Classic-desktop-browsers-->
+  <link type="image/x-icon" rel="shortcut icon" href="favicons/Classic-desktop-browsers/Favicon-16x16.ico">
+  <link type="image/png" sizes="16x16" rel="icon" href="favicons/Classic-desktop-browsers/Favicon-16x16.png">
+  <link type="image/png" sizes="32x32" rel="icon" href="favicons/Classic-desktop-browsers/Favicon-32x32.png">
+  <link type="image/png" sizes="96x96" rel="icon" href="favicons/Classic-desktop-browsers/Favicon-96x96.png">
+  <link type="image/png" sizes="120x120" rel="icon" href="favicons/Classic-desktop-browsers/Favicon-120x120.png">
+  <!--Google-Android-and-Chrome-->
+  <link type="image/png" sizes="192x192" rel="icon" href="favicons/Google-Android-and-Chrome/Favicon-192x192.png">
+  <!--Apple-iOS-->
+  <link sizes="57x57" rel="apple-touch-icon" href="favicons/Apple-iOS/Favicon-57x57.png">
+  <link sizes="60x60" rel="apple-touch-icon" href="favicons/Apple-iOS/Favicon-60x60.png">
+  <link sizes="72x72" rel="apple-touch-icon" href="favicons/Apple-iOS/Favicon-72x72.png">
+  <link sizes="76x76" rel="apple-touch-icon" href="favicons/Apple-iOS/Favicon-76x76.png">
+  <link sizes="114x114" rel="apple-touch-icon" href="favicons/Apple-iOS/Favicon-114x114.png">
+  <link sizes="120x120" rel="apple-touch-icon" href="favicons/Apple-iOS/Favicon-120x120.png">
+  <link sizes="144x144" rel="apple-touch-icon" href="favicons/Apple-iOS/Favicon-144x144.png">
+  <link sizes="152x152" rel="apple-touch-icon" href="favicons/Apple-iOS/Favicon-152x152.png">
+  <link sizes="180x180" rel="apple-touch-icon" href="favicons/Apple-iOS/Favicon-180x180.png">
+  <!--Safari-->
+  <link color="#e52037" rel="mask-icon" href="favicons/Safari/Favicon.svg">
+  <!--Windows-->
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="favicons/Windows/Favicon-140x140.png">
+  <meta name="msapplication-square70x70logo" content="favicons/Windows/Favicon-70x70.png">
+  <meta name="msapplication-square150x150logo" content="favicons/Windows/Favicon-150x150.png">
+  <meta name="msapplication-square310x310logo" content="favicons/Windows/Favicon-310x310.png">
+  <meta name="application-name" content="Site example">
+
+	<title>Smooth animation of movement in the area</title>
+
+	<link rel="stylesheet" href="css/main.css">
+
+	<script src="libs/gsap.min.js" defer></script>
+	<script src="libs/Draggable.min.js" defer></script>
+	<script src="libs/InertiaPlugin.min.js" defer></script>
+	<script src="js/app.js" defer></script>
+
+	<style>
+		.gallery { opacity: 0; }
+	</style>
+
+</head>
+<body>
+
+	<h1 class="header" id="header">Architecture<span id="header_span">Loading...</span></h1>
+
+	<div class="gallery" id="gallery">
+		<div class="gallery__item"><img src="img/1.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/2.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/3.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/4.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/5.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/6.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/7.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/8.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/9.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/10.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/11.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/12.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/13.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/14.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/15.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/16.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/17.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/18.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/19.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/20.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/1.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/2.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/3.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/4.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/5.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/6.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/7.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/8.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/9.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/10.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/11.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/12.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/13.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/14.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/15.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/16.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/17.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/18.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/19.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/20.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/1.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/2.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/3.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/4.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/5.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/6.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/7.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/8.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/9.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/10.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/11.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/12.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/13.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/14.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/15.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/16.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/17.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/18.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/19.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/20.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/1.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/2.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/3.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/4.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/5.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/6.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/7.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/8.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/9.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/10.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/11.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/12.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/13.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/14.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/15.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/16.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/17.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/18.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/19.jpg" alt="Alt"></div>
+		<div class="gallery__item"><img src="img/20.jpg" alt="Alt"></div>
+	</div>
+
+</body>
+</html>
