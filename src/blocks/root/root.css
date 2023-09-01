@@ -1,0 +1,14 @@
+.root {
+  --gap: .5em;
+	--index: calc(1vw + 1vh);
+	--background-body: #efefef;
+  --text-color: #0f0f0f;
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-body: #0f0f0f;
+    --text-color: #efefef;
+  }
+}

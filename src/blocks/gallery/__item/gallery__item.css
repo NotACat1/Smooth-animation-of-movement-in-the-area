@@ -1,0 +1,10 @@
+.gallery__item {
+	margin-bottom: var(--gap);
+	transform: scale(1.001);
+	will-change: transform;
+	transition: .3s;
+}
+
+.gallery__item:hover {
+	transform: scale(1.03);
+}

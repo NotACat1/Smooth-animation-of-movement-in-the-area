@@ -1,0 +1,11 @@
+.gallery {
+  width: 30vw;
+	column-width: 2em;
+	gap: var(--gap);
+	transform: scale(8.2);
+	will-change: transform;
+	transition: transform 1s cubic-bezier(.075, 1, .25, 1), opacity 1s;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility .5s linear, opacity .5s linear;
+}

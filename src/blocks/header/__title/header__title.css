@@ -1,0 +1,12 @@
+.header__title {
+  margin-top: 0;
+  margin-bottom: .3em;
+  text-transform: uppercase;
+	font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	letter-spacing: .1em;
+	font-size: calc(var(--index) * 2.8);
+	font-weight: 300;
+	text-align: center;
+	opacity: .9;
+  color: var(--text-color);
+}

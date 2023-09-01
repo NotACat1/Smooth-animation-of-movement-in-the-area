@@ -1,0 +1,7 @@
+.body {
+  background-color: var(--background-body);
+	overflow: hidden;
+  min-height: 100vh;
+  max-height: 100vh;
+  position: relative;
+}
